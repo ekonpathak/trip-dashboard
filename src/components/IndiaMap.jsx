@@ -119,20 +119,12 @@ function IndiaMap({ destinations }) {
           attributionControl={false}
         >
           <TileLayer
-            url="https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}{r}.png"
-            attribution='&copy; OpenStreetMap &copy; CartoDB'
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            attribution='&copy; OpenStreetMap contributors'
             className="map-tiles"
             maxZoom={6}
             minZoom={4}
             bounds={indiaBounds}
-          />
-          <TileLayer
-            url="https://tiles.stadiamaps.com/tiles/stamen_terrain_lines/{z}/{x}/{y}{r}.png"
-            attribution='&copy; Stamen Design'
-            className="border-tiles"
-            maxZoom={6}
-            minZoom={4}
-            opacity={0.6}
           />
 
           <GeoJSON data={indiaGeoJson} style={geoJsonStyle} />

@@ -303,8 +303,8 @@
       "totalAmount": 1404,
       "bookedOn": "2026-01-17",
       "screenshot": [
-        "/screenshots/ticket-1_2945153272.png",
-        "/screenshots/ticket-1_2449093738.png"
+        "/trip-dashboard/screenshots/ticket-1_2945153272.png",
+        "/trip-dashboard/screenshots/ticket-1_2449093738.png"
       ]
     },
     {
@@ -348,8 +348,8 @@
       "totalAmount": 1607,
       "bookedOn": "2026-01-18",
       "screenshot": [
-        "/screenshots/ticket-2_6564219176.png",
-        "/screenshots/ticket-2_6264219315.png"
+        "/trip-dashboard/screenshots/ticket-2_6564219176.png",
+        "/trip-dashboard/screenshots/ticket-2_6264219315.png"
       ]
     },
     {
@@ -395,7 +395,7 @@
       ],
       "totalAmount": 1104,
       "bookedOn": "2026-01-18",
-      "screenshot": "/screenshots/ticket-3_6264225385.png"
+      "screenshot": "/trip-dashboard/screenshots/ticket-3_6264225385.png"
     },
     {
       "id": "ticket-4",
@@ -440,8 +440,8 @@
       "totalAmount": 23000,
       "bookedOn": "2026-01-17",
       "screenshot": [
-        "/screenshots/ticket-4_DER9MR.png",
-        "/screenshots/ticket-4_PF5HPE_2.png"
+        "/trip-dashboard/screenshots/ticket-4_DER9MR.png",
+        "/trip-dashboard/screenshots/ticket-4_PF5HPE_2.png"
       ]
     },
     {
@@ -487,7 +487,7 @@
       ],
       "totalAmount": 2124,
       "bookedOn": "2026-01-18",
-      "screenshot": "/screenshots/ticket-5_4644677779.png"
+      "screenshot": "/trip-dashboard/screenshots/ticket-5_4644677779.png"
     },
     {
       "id": "ticket-6",
@@ -523,7 +523,7 @@
       ],
       "totalAmount": 5700,
       "bookedOn": "2026-02-19",
-      "screenshot": "/screenshots/ticket-6_9985442727.png"
+      "screenshot": "/trip-dashboard/screenshots/ticket-6_9985442727.png"
     },
     {
       "id": "ticket-8",
@@ -568,7 +568,7 @@
       ],
       "totalAmount": 611.8,
       "bookedOn": "2026-01-19",
-      "screenshot": "/screenshots/ticket-8_4939144699.png"
+      "screenshot": "/trip-dashboard/screenshots/ticket-8_4939144699.png"
     },
     {
       "id": "ticket-9",
@@ -617,7 +617,7 @@
       ],
       "totalAmount": 3103.6,
       "bookedOn": "2026-01-19",
-      "screenshot": "/screenshots/ticket-9_4939138291.png"
+      "screenshot": "/trip-dashboard/screenshots/ticket-9_4939138291.png"
     },
     {
       "id": "ticket-7",
@@ -659,8 +659,8 @@
       "totalAmount": 27000,
       "bookedOn": "2026-01-24",
       "screenshot": [
-        "/screenshots/ticket-7_UCWNQN.png",
-        "/screenshots/ticket-7_HFCTKB.png"
+        "/trip-dashboard/screenshots/ticket-7_UCWNQN.png",
+        "/trip-dashboard/screenshots/ticket-7_HFCTKB.png"
       ]
     }
   ],
