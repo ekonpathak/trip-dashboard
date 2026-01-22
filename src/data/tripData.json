@@ -1,0 +1,750 @@
+{
+  "tripOverview": {
+    "title": "North & South India Tour",
+    "startDate": "2026-02-11",
+    "endDate": "2026-02-24",
+    "totalDays": 14,
+    "travelers": [
+      {
+        "name": "Abhishek Kumar Pathak",
+        "age": 26,
+        "gender": "Male"
+      },
+      {
+        "name": "Shyam Chandra Pathak",
+        "age": 62,
+        "gender": "Male"
+      },
+      {
+        "name": "Shanti Devi",
+        "age": 80,
+        "gender": "Female"
+      },
+      {
+        "name": "Madhubala Devi",
+        "age": 59,
+        "gender": "Female"
+      }
+    ]
+  },
+  "destinations": [
+    {
+      "id": "bhopal",
+      "name": "Bhopal",
+      "state": "Madhya Pradesh",
+      "coordinates": {
+        "lat": 23.2599,
+        "lng": 77.4126
+      },
+      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=800&q=60",
+      "duration": "Starting Point",
+      "activities": [
+        "Departure to Kanpur"
+      ]
+    },
+    {
+      "id": "kanpur",
+      "name": "Kanpur",
+      "state": "Uttar Pradesh",
+      "coordinates": {
+        "lat": 26.4499,
+        "lng": 80.3319
+      },
+      "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=400",
+      "duration": "1 night (Feb 11-13)",
+      "activities": [
+        "Night halt",
+        "Prepare for Bihar journey"
+      ]
+    },
+    {
+      "id": "bihta",
+      "name": "Bihta",
+      "state": "Bihar",
+      "coordinates": {
+        "lat": 25.5696,
+        "lng": 84.8711
+      },
+      "image": "https://images.unsplash.com/photo-1548013146-72479768bada?w=400",
+      "duration": "1 day (Feb 14)",
+      "activities": [
+        "Pick Nani from Madhapur",
+        "Meet Mama",
+        "Family gathering"
+      ]
+    },
+    {
+      "id": "mokama",
+      "name": "Mokama",
+      "state": "Bihar",
+      "coordinates": {
+        "lat": 25.3996,
+        "lng": 85.9207
+      },
+      "image": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=400",
+      "duration": "3 days (Feb 14-17)",
+      "activities": [
+        "Ganga Snaan at Shivnar",
+        "Attend Mela",
+        "Meet relatives"
+      ]
+    },
+    {
+      "id": "patna",
+      "name": "Patna",
+      "state": "Bihar",
+      "coordinates": {
+        "lat": 25.5941,
+        "lng": 85.1376
+      },
+      "image": "https://images.unsplash.com/photo-1605649487212-47bdab064df7?w=400",
+      "duration": "Few hours (Feb 17)",
+      "activities": [
+        "Airport transit",
+        "Food before flight"
+      ]
+    },
+    {
+      "id": "chennai",
+      "name": "Chennai",
+      "state": "Tamil Nadu",
+      "coordinates": {
+        "lat": 13.0827,
+        "lng": 80.2707
+      },
+      "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=400",
+      "duration": "Night halt (Feb 17-18)",
+      "activities": [
+        "Hotel stay",
+        "Evening at Marina Beach"
+      ]
+    },
+    {
+      "id": "tirupati",
+      "name": "Tirupati",
+      "state": "Andhra Pradesh",
+      "coordinates": {
+        "lat": 13.6288,
+        "lng": 79.4192
+      },
+      "image": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=60",
+      "duration": "2 days (Feb 18-19)",
+      "activities": [
+        "City tour",
+        "Book Tirumala main temple darshan",
+        "Balaji Temple visit"
+      ]
+    },
+    {
+      "id": "madurai",
+      "name": "Madurai",
+      "state": "Tamil Nadu",
+      "coordinates": {
+        "lat": 9.9252,
+        "lng": 78.1198
+      },
+      "image": "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=800&q=60",
+      "duration": "2 days (Feb 19-21)",
+      "activities": [
+        "Meenakshi Temple visit",
+        "Local sightseeing"
+      ]
+    },
+    {
+      "id": "rameshwaram",
+      "name": "Rameshwaram",
+      "state": "Tamil Nadu",
+      "coordinates": {
+        "lat": 9.2876,
+        "lng": 79.3129
+      },
+      "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=60",
+      "duration": "2 days (Feb 21-23)",
+      "activities": [
+        "Temple darshan",
+        "Pamban Bridge visit",
+        "Tour the city"
+      ]
+    },
+    {
+      "id": "kanyakumari",
+      "name": "Kanyakumari",
+      "state": "Tamil Nadu",
+      "coordinates": {
+        "lat": 8.0883,
+        "lng": 77.5385
+      },
+      "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60",
+      "duration": "1 day (Feb 23)",
+      "activities": [
+        "Sunrise view",
+        "City tour",
+        "Hotel booking"
+      ]
+    },
+    {
+      "id": "trivandrum",
+      "name": "Trivandrum",
+      "state": "Kerala",
+      "coordinates": {
+        "lat": 8.5241,
+        "lng": 76.9366
+      },
+      "image": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=400",
+      "duration": "Transit (Feb 23-24)",
+      "activities": [
+        "Airport transfer",
+        "Late night flight departure"
+      ]
+    },
+    {
+      "id": "bangalore",
+      "name": "Bangalore",
+      "state": "Karnataka",
+      "coordinates": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "image": "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?w=400",
+      "duration": "Layover (Feb 24)",
+      "activities": [
+        "Airport lounge",
+        "6 hours layover"
+      ]
+    }
+  ],
+  "tickets": [
+    {
+      "id": "ticket-0",
+      "type": "train",
+      "status": "confirmed",
+      "trainNumber": "12534",
+      "trainName": "PUSHPAK EXPRESS",
+      "pnr": [
+        "2449093700",
+        "2945153200"
+      ],
+      "from": "Bhopal Jn (BPL)",
+      "to": "Kanpur Central (CNB)",
+      "departureDate": "2026-02-11",
+      "departureTime": "18:30",
+      "arrivalDate": "2026-02-12",
+      "arrivalTime": "06:15",
+      "duration": "11h 45m",
+      "class": "3A",
+      "passengers": [
+        {
+          "name": "Abhishek Kumar P",
+          "seat": "B2/25",
+          "coach": "B2",
+          "status": "Confirmed"
+        },
+        {
+          "name": "SC Pathak",
+          "seat": "B2/26",
+          "coach": "B2",
+          "status": "Confirmed"
+        },
+        {
+          "name": "Madhubala Devi",
+          "seat": "B2/27",
+          "coach": "B2",
+          "status": "Confirmed"
+        },
+        {
+          "name": "Shanti Devi",
+          "seat": "B2/28",
+          "coach": "B2",
+          "status": "Confirmed"
+        }
+      ],
+      "totalAmount": 2800,
+      "bookedOn": "2026-01-16",
+      "screenshot": null
+    },
+    {
+      "id": "ticket-1",
+      "type": "train",
+      "status": "confirmed",
+      "trainNumber": "22406",
+      "trainName": "BGP GARIB RATH",
+      "pnr": [
+        "2449093738",
+        "2945153272"
+      ],
+      "from": "Kanpur Central (CNB)",
+      "to": "Bihta (BTA)",
+      "departureDate": "2026-02-13",
+      "departureTime": "22:17",
+      "arrivalDate": "2026-02-14",
+      "arrivalTime": "05:08",
+      "duration": "6h 51m",
+      "class": "3A",
+      "passengers": [
+        {
+          "name": "Abhishek Kumar P",
+          "seat": "RLWL/13",
+          "coach": "RLWL",
+          "status": "Waitlist"
+        },
+        {
+          "name": "SC Pathak",
+          "seat": "G19/1",
+          "coach": "G19",
+          "status": "Confirmed"
+        },
+        {
+          "name": "Madhubala Devi",
+          "seat": "G19/4",
+          "coach": "G19",
+          "status": "Confirmed"
+        }
+      ],
+      "totalAmount": 1404,
+      "bookedOn": "2026-01-17",
+      "screenshot": [
+        "/screenshots/ticket-1_2945153272.png",
+        "/screenshots/ticket-1_2449093738.png"
+      ]
+    },
+    {
+      "id": "ticket-2",
+      "type": "train",
+      "status": "confirmed",
+      "trainNumber": "13288",
+      "trainName": "SOUTH BIHAR EXP",
+      "pnr": [
+        "6264219315",
+        "6564219176"
+      ],
+      "from": "Bihta (BTA)",
+      "to": "Mokameh Jn (MKA)",
+      "departureDate": "2026-02-14",
+      "departureTime": "19:06",
+      "arrivalDate": "2026-02-14",
+      "arrivalTime": "22:00",
+      "duration": "2h 54m",
+      "class": "3A",
+      "passengers": [
+        {
+          "name": "Shanti Devi",
+          "seat": "B6/44",
+          "coach": "B6",
+          "status": "Confirmed"
+        },
+        {
+          "name": "SC Pathak",
+          "seat": "B2/33",
+          "coach": "B2",
+          "status": "Confirmed"
+        },
+        {
+          "name": "Madhubala Devi",
+          "seat": "B2/36",
+          "coach": "B2",
+          "status": "Confirmed"
+        }
+      ],
+      "totalAmount": 1607,
+      "bookedOn": "2026-01-18",
+      "screenshot": [
+        "/screenshots/ticket-2_6564219176.png",
+        "/screenshots/ticket-2_6264219315.png"
+      ]
+    },
+    {
+      "id": "ticket-3",
+      "type": "train",
+      "status": "confirmed",
+      "trainNumber": "13401",
+      "trainName": "INTERCITY EXP",
+      "pnr": "6264225385",
+      "from": "Mokameh Jn (MKA)",
+      "to": "Patna Jn (PNBE)",
+      "departureDate": "2026-02-17",
+      "departureTime": "09:07",
+      "arrivalDate": "2026-02-17",
+      "arrivalTime": "10:55",
+      "duration": "1h 48m",
+      "class": "CC",
+      "passengers": [
+        {
+          "name": "Abhishek Kumar P",
+          "seat": "C1/45",
+          "coach": "C1",
+          "status": "Confirmed"
+        },
+        {
+          "name": "Shanti Devi",
+          "seat": "C1/46",
+          "coach": "C1",
+          "status": "Confirmed"
+        },
+        {
+          "name": "SC Pathak",
+          "seat": "C1/47",
+          "coach": "C1",
+          "status": "Confirmed"
+        },
+        {
+          "name": "Madhubala Devi",
+          "seat": "C1/48",
+          "coach": "C1",
+          "status": "Confirmed"
+        }
+      ],
+      "totalAmount": 1104,
+      "bookedOn": "2026-01-18",
+      "screenshot": "/screenshots/ticket-3_6264225385.png"
+    },
+    {
+      "id": "ticket-4",
+      "type": "flight",
+      "status": "confirmed",
+      "airline": "IndiGo",
+      "flightNumber": "6E-597",
+      "pnr": [
+        "DER9MR",
+        "PF5HPE"
+      ],
+      "from": "Patna (PAT)",
+      "to": "Chennai (MAA)",
+      "departureDate": "2026-02-17",
+      "departureTime": "17:45",
+      "arrivalDate": "2026-02-17",
+      "arrivalTime": "20:20",
+      "duration": "2h 35m",
+      "class": "Economy",
+      "passengers": [
+        {
+          "name": "Abhishek Kumar Pathak",
+          "seat": "To be assigned",
+          "pnr": "DER9MR"
+        },
+        {
+          "name": "Madhubala Devi",
+          "seat": "To be assigned",
+          "pnr": "DER9MR"
+        },
+        {
+          "name": "Shyam Chandra Pathak",
+          "seat": "To be assigned",
+          "pnr": "PF5HPE"
+        },
+        {
+          "name": "Shanti Devi",
+          "seat": "To be assigned",
+          "pnr": "PF5HPE"
+        }
+      ],
+      "totalAmount": 23000,
+      "bookedOn": "2026-01-17",
+      "screenshot": [
+        "/screenshots/ticket-4_DER9MR.png",
+        "/screenshots/ticket-4_PF5HPE_2.png"
+      ]
+    },
+    {
+      "id": "ticket-5",
+      "type": "train",
+      "status": "confirmed",
+      "trainNumber": "20677",
+      "trainName": "NS VANDE BHARAT",
+      "pnr": "4644677779",
+      "from": "Mgr Chennai Ctl (MAS)",
+      "to": "Renigunta Jn (RU)",
+      "departureDate": "2026-02-18",
+      "departureTime": "05:30",
+      "arrivalDate": "2026-02-18",
+      "arrivalTime": "07:05",
+      "duration": "1h 35m",
+      "class": "CC",
+      "passengers": [
+        {
+          "name": "Abhishek Kumar P",
+          "seat": "C7/36",
+          "coach": "C7",
+          "status": "Confirmed"
+        },
+        {
+          "name": "SC Pathak",
+          "seat": "C7/35",
+          "coach": "C7",
+          "status": "Confirmed"
+        },
+        {
+          "name": "Shanti Devi",
+          "seat": "C7/37",
+          "coach": "C7",
+          "status": "Confirmed"
+        },
+        {
+          "name": "Madhubala Devi",
+          "seat": "C7/38",
+          "coach": "C7",
+          "status": "Confirmed"
+        }
+      ],
+      "totalAmount": 2124,
+      "bookedOn": "2026-01-18",
+      "screenshot": "/screenshots/ticket-5_4644677779.png"
+    },
+    {
+      "id": "ticket-6",
+      "type": "bus",
+      "status": "confirmed",
+      "operator": "Sri Kumaran Travels",
+      "busType": "AC Sleeper (2+1)",
+      "ticketId": "9985442727",
+      "from": "Tirupati",
+      "to": "Madurai",
+      "departureDate": "2026-02-19",
+      "departureTime": "20:00",
+      "arrivalDate": "2026-02-20",
+      "arrivalTime": "06:15",
+      "duration": "10h 15m",
+      "passengers": [
+        {
+          "name": "Abhishek Pathak",
+          "seat": "L9"
+        },
+        {
+          "name": "Shyam Chandra Pathak",
+          "seat": "L4"
+        },
+        {
+          "name": "Madhubala Devi",
+          "seat": "L6"
+        },
+        {
+          "name": "Shanti Devi",
+          "seat": "L5"
+        }
+      ],
+      "totalAmount": 5700,
+      "bookedOn": "2026-02-19",
+      "screenshot": "/screenshots/ticket-6_9985442727.png"
+    },
+    {
+      "id": "ticket-8",
+      "type": "train",
+      "status": "confirmed",
+      "trainNumber": "16779",
+      "trainName": "TPTY RMM EXP",
+      "pnr": "4939144699",
+      "from": "Madurai Jn (MDU)",
+      "to": "Rameshwaram (RMM)",
+      "departureDate": "2026-02-21",
+      "departureTime": "01:35",
+      "arrivalDate": "2026-02-21",
+      "arrivalTime": "04:35",
+      "duration": "3h 00m",
+      "class": "Sleeper (SL)",
+      "passengers": [
+        {
+          "name": "S C Pathak",
+          "seat": "S9/9",
+          "coach": "S9",
+          "status": "CNF/S9/9/LB"
+        },
+        {
+          "name": "Madhubala Devi",
+          "seat": "S9/12",
+          "coach": "S9",
+          "status": "CNF/S9/12/LB"
+        },
+        {
+          "name": "Shanti Devi",
+          "seat": "S9/10",
+          "coach": "S9",
+          "status": "CNF/S9/10/MB"
+        },
+        {
+          "name": "Abhishek Kumar P",
+          "seat": "S9/16",
+          "coach": "S9",
+          "status": "CNF/S9/16/SU"
+        }
+      ],
+      "totalAmount": 611.8,
+      "bookedOn": "2026-01-19",
+      "screenshot": "/screenshots/ticket-8_4939144699.png"
+    },
+    {
+      "id": "ticket-9",
+      "type": "train",
+      "status": "confirmed",
+      "trainNumber": "12633",
+      "trainName": "KANYAKUMARI EXP",
+      "pnr": "4939138291",
+      "from": "Madurai Jn (MDU)",
+      "to": "Kanyakumari (CAPE)",
+      "departureDate": "2026-02-23",
+      "departureTime": "00:50",
+      "arrivalDate": "2026-02-23",
+      "arrivalTime": "05:30",
+      "duration": "4h 40m",
+      "class": "AC 2 Tier (2A)",
+      "passengers": [
+        {
+          "name": "Shanti Devi",
+          "seat": "A1/1",
+          "coach": "A1",
+          "berth": "Lower",
+          "status": "CNF/A1/1/LB"
+        },
+        {
+          "name": "S C Pathak",
+          "seat": "A1/48",
+          "coach": "A1",
+          "berth": "Side Upper",
+          "status": "CNF/A1/48/SU"
+        },
+        {
+          "name": "Madhubala Devi",
+          "seat": "A1/47",
+          "coach": "A1",
+          "berth": "Side Lower",
+          "status": "CNF/A1/47/SL"
+        },
+        {
+          "name": "Abhishek Kumar P",
+          "seat": "A1/46",
+          "coach": "A1",
+          "berth": "Upper",
+          "status": "CNF/A1/46/UB"
+        }
+      ],
+      "totalAmount": 3103.6,
+      "bookedOn": "2026-01-19",
+      "screenshot": "/screenshots/ticket-9_4939138291.png"
+    },
+    {
+      "id": "ticket-7",
+      "type": "flight",
+      "status": "confirmed",
+      "airline": "IndiGo",
+      "flightNumber": "6E-6627 / 6E-368",
+      "pnr": [
+        "UCWNQN",
+        "HFCTKB"
+      ],
+      "from": "Trivandrum (TRV)",
+      "to": "Bhopal (BHO)",
+      "departureDate": "2026-02-24",
+      "departureTime": "23:00",
+      "arrivalDate": "2026-02-25",
+      "arrivalTime": "08:50",
+      "duration": "9h 50m",
+      "layover": "Bengaluru (BLR) - 2h 5m",
+      "class": "Economy",
+      "passengers": [
+        {
+          "name": "Madhubala Devi",
+          "pnr": "UCWNQN"
+        },
+        {
+          "name": "Abhishek Kumar Pathak",
+          "pnr": "UCWNQN"
+        },
+        {
+          "name": "Shyam Chandra Pathak",
+          "pnr": "HFCTKB"
+        },
+        {
+          "name": "Shanti Devi",
+          "pnr": "HFCTKB"
+        }
+      ],
+      "totalAmount": 27000,
+      "bookedOn": "2026-01-24",
+      "screenshot": [
+        "/screenshots/ticket-7_UCWNQN.png",
+        "/screenshots/ticket-7_HFCTKB.png"
+      ]
+    }
+  ],
+  "hotelBookings": [
+    {
+      "id": "hotel-1",
+      "location": "Chennai",
+      "checkIn": "2026-02-17",
+      "checkOut": "2026-02-18",
+      "nights": 1,
+      "status": "pending",
+      "estimatedCost": 2000,
+      "notes": "Near airport preferred, early checkout needed for 5:30 AM train"
+    },
+    {
+      "id": "hotel-2",
+      "location": "Tirupati",
+      "checkIn": "2026-02-18",
+      "checkOut": "2026-02-19",
+      "nights": 1,
+      "status": "pending",
+      "estimatedCost": 1500,
+      "notes": "Near temple area, book darshan tickets for Tirumala"
+    },
+    {
+      "id": "hotel-3",
+      "location": "Rameshwaram",
+      "checkIn": "2026-02-21",
+      "checkOut": "2026-02-22",
+      "nights": 1,
+      "status": "pending",
+      "estimatedCost": 1800,
+      "notes": "Near temple, vegetarian meals preferred"
+    },
+    {
+      "id": "hotel-4",
+      "location": "Kanyakumari",
+      "checkIn": "2026-02-23",
+      "checkOut": "2026-02-24",
+      "nights": 1,
+      "status": "pending",
+      "estimatedCost": 2000,
+      "notes": "Beach view preferred for sunrise, arrange cab to airport"
+    }
+  ],
+  "pendingBookings": [
+    {
+      "id": "pending-1",
+      "type": "temple",
+      "location": "Tirupati Tirumala",
+      "date": "2026-02-18",
+      "priority": "critical",
+      "notes": "URGENT: Book Tirumala main temple darshan ticket online immediately"
+    },
+    {
+      "id": "pending-3",
+      "type": "bus",
+      "from": "Rameshwaram",
+      "to": "Madurai",
+      "date": "2026-02-22",
+      "estimatedTime": "To be decided",
+      "priority": "high",
+      "notes": "Book return bus/train from Rameshwaram to Madurai"
+    },
+    {
+      "id": "pending-5",
+      "type": "cab",
+      "from": "Kanyakumari",
+      "to": "Trivandrum Airport",
+      "date": "2026-02-23",
+      "estimatedTime": "Evening",
+      "priority": "medium",
+      "notes": "Book cab for airport transfer - flight at 11 PM"
+    }
+  ],
+  "budget": {
+    "trainTickets": 12654.4,
+    "flightTickets": 50000,
+    "busTickets": 5700,
+    "totalTicketsCost": 68354.4,
+    "estimatedHotelsCost": 7300,
+    "estimatedFoodCost": 15000,
+    "estimatedLocalTransport": 8000,
+    "miscellaneous": 5000,
+    "totalEstimated": 103654.4
+  }
+}

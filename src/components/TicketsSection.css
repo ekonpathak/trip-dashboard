@@ -1,0 +1,201 @@
+.tickets-section {
+  background: #fffbf5;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(139, 69, 19, 0.12);
+  border: 2px solid #c9a050;
+  overflow-y: auto;
+  max-height: 100%;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.section-header h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #b8312f 0%, #d4622f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.tickets-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 0.75rem;
+}
+
+.ticket-card {
+  background: linear-gradient(135deg, #f8f1e3 0%, #fffbf5 100%);
+  border: 2px solid #eedcc5;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.ticket-card:hover {
+  border-color: #c9a050;
+  box-shadow: 0 4px 8px rgba(139, 69, 19, 0.15);
+  transform: translateY(-2px);
+}
+
+.ticket-type {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.ticket-type.train {
+  background: linear-gradient(135deg, #d4622f 0%, #f4a460 100%);
+  color: white;
+}
+
+.ticket-type.flight {
+  background: linear-gradient(135deg, #c17817 0%, #c9a050 100%);
+  color: white;
+}
+
+.ticket-type.bus {
+  background: linear-gradient(135deg, #b8312f 0%, #ff6b6b 100%);
+  color: white;
+}
+
+.ticket-route {
+  margin: 0.5rem 0;
+}
+
+.route-cities {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: space-between;
+}
+
+.route-city {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #3e2723;
+}
+
+.route-arrow {
+  color: #c9a050;
+  flex-shrink: 0;
+}
+
+.ticket-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid #eedcc5;
+}
+
+.detail-row {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.75rem;
+  color: #5d4037;
+}
+
+.detail-row svg {
+  color: #d4622f;
+  flex-shrink: 0;
+}
+
+.ticket-cost {
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid #eedcc5;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #c17817;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .tickets-section {
+    padding: 0.75rem;
+  }
+  
+  .section-header h3 {
+    font-size: 1rem;
+  }
+  
+  .tickets-grid {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+  
+  .ticket-card {
+    padding: 0.5rem;
+  }
+  
+  .ticket-type {
+    font-size: 0.65rem;
+  }
+  
+  .route-city {
+    font-size: 0.8rem;
+  }
+  
+  .detail-row {
+    font-size: 0.7rem;
+  }
+}
+
+.view-screenshot-btn {
+  width: 100%;
+  margin-top: 0.75rem;
+  padding: 0.6rem 1rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: 0.85rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(102, 126, 234, 0.3);
+}
+
+.view-screenshot-btn:hover {
+  background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.view-screenshot-btn:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 480px) {
+  .tickets-section {
+    padding: 0.5rem;
+  }
+  
+  .section-header h3 {
+    font-size: 0.9rem;
+  }
+
+  .view-screenshot-btn {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.75rem;
+  }
+}
